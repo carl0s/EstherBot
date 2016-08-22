@@ -3,9 +3,9 @@
     "HELLO": "Hey, I'm so glad you set nois3Bot up! Do you want to tell Nois3 that you're talking to its bot or do you want to know about WUDRome2016? %[Tell us](postback:twitter) %[WUDRome2016](postback:wud)",
     "TELL US": "Let's tweet @ nois3 so we know you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Nois3](http://cfp.me/nois3-bot)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
-    "LEARN ABOUT NOIS3": "we are nois3, a Rome (Italy), based creative studio\nspecialized in developing visual concepts, digital strategies,\nweb and mobile applications.\nOur interdisciplinary team uses a co-design approach to plan\ndigital storytelling paths together with the client, in order to improve identity and strengthen communication strategy.",
-    "HERE FOR THE BOT": "Learn more about the bot here: https://nois3.it/blog",
-    "RANDOM FACT": "Get some fun fact here: https://nois3.it/random-fact",
+    "LEARN ABOUT NOIS3": "we are nois3, a Rome (Italy), based creative studio\nspecialized in developing visual concepts, digital strategies,\nweb and mobile applications.\nOur interdisciplinary team uses a co-design approach to plan\ndigital storytelling paths together with the client, in order to improve identity and strengthen communication strategy. Learn more at https://nois3.it/en/about",
+    "I'M HERE FOR THE BOT": "Learn more about the bot here: https://nois3.it/blog",
+    "ONE RANDOM FACT": "Get some fun fact here: https://nois3.it/random-fact",
     "CONNECT ME": "Follow us at @wearenois3 on Twitter and Instagram, on Facebook http://fb.com/wearenois3 and Linkedin on https://www.linkedin.com/company/nois3",
     "DISCONNECT": "Roger that, nois3Bot is back."
 }

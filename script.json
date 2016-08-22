@@ -1,5 +1,5 @@
 {
-    "BOT": "Ciao!\nQuesto è il bot personale di nois3, Experience Design Agency di Roma.\n![nois3](http://www.nois3.it/app/uploads/2015/11/nois3_logo.png)\nPossiamo aiutarti in qualche modo? %[Vorrei che mi aiutaste in un progetto](postback:help_me_project) %[Cos'è nois3](postback:cosa_nois3) %[Avete un portfolio?](postback:nois3_case) %[Voglio sapere di WUDRome](postback:wudrome2016) %[Monday nois3](postback:next_mondaynois3)",
+    "BOT": "Ciao! Questo è il bot personale di nois3, Experience Design Agency di Roma.\n![nois3](http://www.nois3.it/app/uploads/2015/11/nois3_logo.png)\nPossiamo aiutarti in qualche modo? %[Vorrei che mi aiutaste in un progetto](postback:help_me_project) %[Cos'è nois3](postback:cosa_nois3) %[Avete un portfolio?](postback:nois3_case) %[Voglio sapere di WUDRome](postback:wudrome2016) %[Monday nois3](postback:next_mondaynois3)",
     "CIAO": "Ciao!\nQuesto è il bot personale di nois3, Experience Design Agency di Roma.\n![nois3](http://www.nois3.it/app/uploads/2015/11/nois3_logo.png)\nPossiamo aiutarti in qualche modo? %[Vorrei che mi aiutaste in un progetto](postback:help_me_project) %[Cos'è nois3](postback:cosa_nois3) %[Avete un portfolio?](postback:nois3_case) %[Voglio sapere di WUDRome](postback:wudrome2016) %[Monday nois3](postback:next_mondaynois3)",
     "VORREI CHE MI AIUTASTE IN UN PROGETTO":"http://nois3.it/contattaci", 
     "COS'È NOIS3": "http://nois3.it/chi-siamo",
@@ -7,9 +7,9 @@
     "VOGLIO SAPERE DI WUDROME":"Il World Usability Day Rome nasce nel 2014 grazie a noi(s3) e nelle prime 2 edizioni ha collezionato più di 500 presenze. Quest'anno si parla di Sustainable UX / Green UX, vuoi essere dei nostri? %[si](postback:wud_si) %[no](postback:wud_no)",
     "SI":"Puoi comprare un biglietto su http://wudrome.it",
     "NO":"Sei proprio sicuro?",
-    "MONDAY NOIS3": "Guarda il prossimo Monday nois3, in esclusiva per te [monday_nois3](http://nois3.it/next-monday-nois3)",
+    "MONDAY NOIS3": "Guarda il prossimo Monday nois3, in esclusiva per te ![monday_nois3](http://nois3.it/next-monday-nois3)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "Seguici su [Twitter](https://twitter.com/wearenois3), [Instagram](http://instagram.com/wearenois3), [Facebook](http://fb.com/wearenois3) e [Linkedin](https://www.linkedin.com/company/nois3)",
     "DISCONNECT": "Ok! nois3Bot è tornato.",
-    "AIUTO":"\n----------\nBOT\nper conoscere meglio il nostro inizio\n----------\nVORREI CHE MI AIUTASTE IN UN PROGETTO\nper lavorare con noi\n----------\nCOS'È NOIS3\nper conoscerci meglio\n----------\nAVETE UN PORTFOLIO\nPer vedere i nostri lavori\n----------\nVOGLIO SAPERE DI WUDROME\nPer scoprire insieme il World Usability Day\n----------\nMONDAY NOIS3\nPer vedere la nostra prossima gif\n----------\nCOME SI PRONUNCIA\nPer sapere se si dice noiz, nuà truà o nuàs...\n----------\n"
+    "AIUTO":"BOT\nper conoscere meglio il nostro inizio\nVORREI CHE MI AIUTASTE IN UN PROGETTO\nper lavorare con noi\nCOS'È NOIS3\nper conoscerci meglio\nAVETE UN PORTFOLIO\nPer vedere i nostri lavori\nVOGLIO SAPERE DI WUDROME\nPer scoprire insieme il World Usability Day\nMONDAY NOIS3\nPer vedere la nostra prossima gif\nCOME SI PRONUNCIA\nPer sapere se si dice noiz, nuà truà o nuàs..."
 }

@@ -72,19 +72,3 @@ module.exports = new Script({
         }
     }
 });
-smooch.menu.get()
-.then(() => {
-    // async code
-});
-
-smooch.menu.configure({
-    name: 'Cosa possiamo fare per te',
-    items: [{
-        type: 'link',
-        text: 'Lavora con noi',
-        uri: 'http://nois3.it'
-    }]
-})
-.then(() => {
-    // async code
-});

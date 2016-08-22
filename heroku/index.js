@@ -149,31 +149,35 @@ function handleMessages(req, res) {
 }
 
 function handlePostback(req, res) {
-    const postback = req.body.postbacks[0];
-    if (!postback || !postback.action) {
-        res.end();
-    }
 
-    createBot(req.body.appUser).say(`You said: ${postback.action.text} (payload was: ${postback.action.payload})`)
-        .then(() => res.end());
-}
-
-app.post('/webhook', function(req, res, next) {
-    const trigger = req.body.trigger;
-
-    switch (trigger) {
-        case 'message:appUser':
-            handleMessages(req, res);
-            break;
-
-        case 'postback':
-            handlePostback(req, res);
-            break;
-
-        default:
-            console.log('Ignoring unknown webhook trigger:', trigger);
-    }
+const stateMachine = new StateMachine({
+    script,
+    bot: createBot(req.body.appUser)
 });
+
+const postback = req.body.postbacks[0];
+if (!postback || !postback.action) {
+    res.end();
+};
+
+const smoochPayload = postback.action.payload;
+
+// Change conversation state according to postback clicked
+switch (smoochPayload) {
+    case "POSTBACK-PAYLOAD":
+        Promise.all([
+            stateMachine.bot.releaseLock(),
+            stateMachine.setState(smoochPayload), // set new state
+            stateMachine.prompt(smoochPayload) // call state prompt() if any
+        ]);
+        res.end();
+    break;
+
+    default:
+        stateMachine.bot.say("POSTBACK ISN'T RECOGNIZED") // for testing purposes
+            .then(() => res.end());
+};
+}
 
 
 

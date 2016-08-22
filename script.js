@@ -47,12 +47,16 @@ module.exports = new Script({
                     return bot.say(`I didn't understand that.`).then(() => 'speak');
                 }
 
+
+
                 var response = scriptRules[upperText];
                 var lines = response.split('\n');
+
 
                 var p = Promise.resolve();
                 _.each(lines, function(line) {
                     line = line.trim();
+
                     p = p.then(function() {
                         console.log(line);
                         return bot.say(line);

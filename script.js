@@ -72,6 +72,11 @@ module.exports = new Script({
         }
     }
 });
+smooch.menu.get()
+.then(() => {
+    // async code
+});
+
 smooch.menu.configure({
     name: 'Cosa possiamo fare per te',
     items: [{

@@ -1,4 +1,5 @@
 {
+    "BOT": "Ciao!\nQuesto è il bot personale di nois3, Experience Design Agency di Roma.\n![nois3](http://www.nois3.it/app/uploads/2015/11/nois3_logo.png)\nPossiamo aiutarti in qualche modo? %[Vorrei che mi aiutaste in un progetto](postback:help_me_project) %[Cos'è nois3](postback:cosa_nois3) %[Avete un portfolio?](postback:nois3_case) %[Voglio sapere di WUDRome](postback:wudrome2016) %[Monday nois3](postback:next_mondaynois3)",
     "CIAO": "Ciao!\nQuesto è il bot personale di nois3, Experience Design Agency di Roma.\n![nois3](http://www.nois3.it/app/uploads/2015/11/nois3_logo.png)\nPossiamo aiutarti in qualche modo? %[Vorrei che mi aiutaste in un progetto](postback:help_me_project) %[Cos'è nois3](postback:cosa_nois3) %[Avete un portfolio?](postback:nois3_case) %[Voglio sapere di WUDRome](postback:wudrome2016) %[Monday nois3](postback:next_mondaynois3)",
     "VORREI CHE MI AIUTASTE IN UN PROGETTO":"http://nois3.it/contattaci", 
     "COS'È NOIS3": "http://nois3.it/chi-siamo",

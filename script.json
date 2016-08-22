@@ -1,6 +1,6 @@
 {
-    "BOT": "Hi there!\nI’m nois3 personal bot, an Experience Design Agency in Rome.\n![nois3](http://www.nois3.it/app/uploads/2015/11/nois3_logo.png)\nWant to know more about bots or learn about nois3? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about nois3](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
-    "HELLO": "Hey, I'm so glad you set nois3Bot up! Do you want to tell Nois3 that you're talking to its bot or do you want to know about WUDRome2016? %[Tell us](postback:twitter) %[WUD](postback:wud)",
+    "BOT": "Hi there!\nI’m nois3 personal bot, an Experience Design Agency in Rome.\n![nois3](http://www.nois3.it/app/uploads/2015/11/nois3_logo.png)\nWant to know more about bots or learn about nois3? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about nois3](postback:learn_about_nois3) %[One random fact!](postback:random_fact)",
+    "HELLO": "Hey, I'm so glad you set nois3Bot up! Do you want to tell Nois3 that you're talking to its bot or do you want to know about WUDRome2016? %[Tell us](postback:twitter) %[WUDRome2016](postback:wud)",
     "TELL US": "Let's tweet @ nois3 so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Nois3](http://cfp.me/nois3-bot)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
